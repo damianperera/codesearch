@@ -1,0 +1,28 @@
+{
+  "name": "codesearch",
+  "version": "0.1.0",
+  "description": "Searches and retrieves matching code snippets from GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianperera/codesearch.git"
+  },
+  "keywords": [
+    "code",
+    "search",
+    "nodejs",
+    "github"
+  ],
+  "author": "Damian Perera <damianperera@outlook.com> (https://github.com/damianperera)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/damianperera/codesearch/issues"
+  },
+  "homepage": "https://github.com/damianperera/codesearch#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
