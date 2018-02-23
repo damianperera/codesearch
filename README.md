@@ -1,4 +1,6 @@
 # Code Search
+[![NSP Status](https://nodesecurity.io/orgs/perera-io/projects/72d6f381-993c-469e-b77c-e8858eb774c2/badge)](https://nodesecurity.io/orgs/perera-io/projects/72d6f381-993c-469e-b77c-e8858eb774c2)
+
 Searches and retrieves matching code snippets from GitHub
 
 ## Installation
