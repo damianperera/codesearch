@@ -8,7 +8,7 @@ Searches and retrieves matching code snippets from GitHub
   `npm install codesearch --save`
 
 #### Get a Token
-Sign up on [GitHub](https://github.com) and generate a personal access token from the [Developer Settings](https://github.com/settings/developers) page
+Sign up on [GitHub](https://github.com) and generate a personal access token from the [Developer Settings](https://github.com/settings/tokens) page
 
 ## Functions
 
