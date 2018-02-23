@@ -1,4 +1,6 @@
 # Code Search
+[![NSP Status](https://nodesecurity.io/orgs/perera-io/projects/72d6f381-993c-469e-b77c-e8858eb774c2/badge)](https://nodesecurity.io/orgs/perera-io/projects/72d6f381-993c-469e-b77c-e8858eb774c2)
+
 Searches and retrieves matching code snippets from GitHub
 
 ## Installation
@@ -30,17 +32,17 @@ codeSearch.search('math.pow', 'javascript', function (result) {
 
 #### JSON Structure
 The following is the structure of the resulting JSON file
-```
+```javascript
 { 
-  searchTerm: The search term used,
-  searchLanguage: The search language used,
-  generatedBy: The module name,
-  generatedOn: The date in ISO format,
+  searchTerm: 'The search term used',
+  searchLanguage: 'The search language used',
+  generatedBy: 'The module name',
+  generatedOn: 'The date in ISO format',
   searchResults: [ 
      { 
-       similarityScore: The similarity of the result to the search term,
-       codeAuthor: The author of the result,
-       codeSnippet: The stringified version of the raw code snippet
+       similarityScore: 'The similarity of the result to the search term',
+       codeAuthor: 'The author of the result',
+       codeSnippet: 'The stringified version of the raw code snippet'
      }
   ] 
 }
@@ -48,7 +50,7 @@ The following is the structure of the resulting JSON file
 
 #### Example Result
 The value of the `codeSnippet` key can be parsed into normal text (without escape characters and other characters like `\n` and `\t`) by using `JSON.parse()`
-```
+```javascript
 { 
   searchTerm: 'setcookie',
   searchLanguage: 'php',
