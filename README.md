@@ -1,5 +1,6 @@
 # Code Search
-[![NSP Status](https://nodesecurity.io/orgs/perera-io/projects/72d6f381-993c-469e-b77c-e8858eb774c2/badge)](https://nodesecurity.io/orgs/perera-io/projects/72d6f381-993c-469e-b77c-e8858eb774c2)
+[![npm version](https://badge.fury.io/js/codesearch.svg)](https://badge.fury.io/js/codesearch) [![NSP Status](https://nodesecurity.io/orgs/perera-io/projects/72d6f381-993c-469e-b77c-e8858eb774c2/badge)](https://nodesecurity.io/orgs/perera-io/projects/72d6f381-993c-469e-b77c-e8858eb774c2) [![dependencies](https://david-dm.org/damianperera/codesearch.svg)](https://david-dm.org/damianperera/codesearch.svg) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 
 Searches and retrieves matching code snippets from GitHub
 
